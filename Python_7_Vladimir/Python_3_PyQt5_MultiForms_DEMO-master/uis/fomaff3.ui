@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QWidget" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>463</width>
+    <height>334</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>80</y>
+     <width>461</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="rowCount">
+    <number>4</number>
+   </property>
+   <property name="columnCount">
+    <number>2</number>
+   </property>
+   <attribute name="horizontalHeaderDefaultSectionSize">
+    <number>220</number>
+   </attribute>
+   <attribute name="horizontalHeaderHighlightSections">
+    <bool>true</bool>
+   </attribute>
+   <attribute name="horizontalHeaderMinimumSectionSize">
+    <number>0</number>
+   </attribute>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <column>
+    <property name="text">
+     <string>книги</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>цена</string>
+    </property>
+   </column>
+   <item row="0" column="0">
+    <property name="text">
+     <string>1984</string>
+    </property>
+   </item>
+   <item row="0" column="1">
+    <property name="text">
+     <string>25000</string>
+    </property>
+   </item>
+   <item row="1" column="0">
+    <property name="text">
+     <string>Война и мир</string>
+    </property>
+   </item>
+   <item row="1" column="1">
+    <property name="text">
+     <string>50000</string>
+    </property>
+   </item>
+   <item row="2" column="0">
+    <property name="text">
+     <string>Слова назидания</string>
+    </property>
+   </item>
+   <item row="2" column="1">
+    <property name="text">
+     <string>45000</string>
+    </property>
+   </item>
+   <item row="3" column="0">
+    <property name="text">
+     <string>Богатый пап,бедный пап</string>
+    </property>
+   </item>
+   <item row="3" column="1">
+    <property name="text">
+     <string>5000</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>76</x>
+     <y>30</y>
+     <width>331</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Стиральные машины</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_back">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>260</y>
+     <width>120</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>Назад</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_next">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>260</y>
+     <width>120</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>Вперёд</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
